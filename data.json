@@ -10,7 +10,8 @@
         },
         {
             "title": "Book an appointment",
-            "url": "https://zcal.co/philbertsph"
+            "url": "https://zcal.co/philbertsph",
+            "image": "/res/zcal.png"
         },
         {
             "title": "Guides",
@@ -18,23 +19,28 @@
         },
         {
             "title": "Online Account Opening (Quick Guide)",
-            "url": "https://www.fame.com.sg/Uploads/Guides/UG_Online_Account_Opening_QuickGuide.pdf"
+            "url": "https://www.fame.com.sg/Uploads/Guides/UG_Online_Account_Opening_QuickGuide.pdf",
+            "image": "/res/book.png"
         },
         {
             "title": "Online Account Opening (Full Guide)",
-            "url": "https://www.fame.com.sg/Uploads/Guides/UG_FAME_Online_Account_Opening_Guide.pdf"
+            "url": "https://www.fame.com.sg/Uploads/Guides/UG_FAME_Online_Account_Opening_Guide.pdf",
+            "image": "/res/book.png"
         },
         {
             "title": "PhillipKey 2FA (Quick Guide)",
-            "url": "https://www.fame.com.sg/Uploads/Guides/UG_FAME_2FA_Quickguide.png"
+            "url": "https://www.fame.com.sg/Uploads/Guides/UG_FAME_2FA_Quickguide.png",
+            "image": "/res/book.png"
         },
         {
             "title": "Payment Details",
-            "url": "https://www.fame.com.sg/Uploads/Guides/FAME_Payments.pdf"
+            "url": "https://www.fame.com.sg/Uploads/Guides/FAME_Payments.pdf",
+            "image": "/res/book.png"
         },
         {
             "title": "Fee Schedule",
-            "url": "https://www.fame.com.sg/Uploads/FeeSchedule/FAMEFeeSchedule.pdf"
+            "url": "https://www.fame.com.sg/Uploads/FeeSchedule/FAMEFeeSchedule.pdf",
+            "image": "/res/book.png"
         },
         {
             "title": "Forms",
@@ -42,27 +48,33 @@
         },
         {
             "title": "Account Opening Form",
-            "url": "https://www.fame.com.sg/Uploads/AccountOpening/AccountOpenForm_Individual.pdf"
+            "url": "https://www.fame.com.sg/Uploads/AccountOpening/AccountOpenForm_Individual.pdf",
+            "image": "/res/form.png"
         },
         {
             "title": "Wrap Transaction Form",
-            "url": "https://www.fame.com.sg/Uploads/Transaction/FormU2-UnitTrustWrapTransactionForm.pdf"
+            "url": "https://www.fame.com.sg/Uploads/Transaction/FormU2-UnitTrustWrapTransactionForm.pdf",
+            "image": "/res/form.png"
         },
         {
             "title": "Non-Wrap Transaction Form",
-            "url": "https://www.fame.com.sg/Uploads/Transaction/FormU1-UnitTrustNon-WrapTransactionForm.pdf"
+            "url": "https://www.fame.com.sg/Uploads/Transaction/FormU1-UnitTrustNon-WrapTransactionForm.pdf",
+            "image": "/res/form.png"
         },
         {
             "title": "Managed Account Transaction Form",
-            "url": "https://www.fame.com.sg/Uploads/MA/PMA_Transaction_Form.pdf"
+            "url": "https://www.fame.com.sg/Uploads/MA/PMA_Transaction_Form.pdf",
+            "image": "/res/form.png"
         },
         {
             "title": "Update Personal Particulars",
-            "url": "https://api2.sgx.com/sites/default/files/2022-10/2.%20Update%20Account%20Particulars.pdf"
+            "url": "https://api2.sgx.com/sites/default/files/2022-10/2.%20Update%20Account%20Particulars.pdf",
+            "image": "/res/form.png"
         },
         {
             "title": "Change Dividend Instruction",
-            "url": "https://www.fame.com.sg/Uploads/DividendRelated/FormU61_DividendInstructionForm.pdf"
+            "url": "https://www.fame.com.sg/Uploads/DividendRelated/FormU61_DividendInstructionForm.pdf",
+            "image": "/res/form.png"
         }
     ]
 }

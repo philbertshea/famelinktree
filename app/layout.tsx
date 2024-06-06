@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "FAME Platform Linktree",
-  description: "FAME Wealth Management, well known for 0% Platform Fee, 0% Account Management Fee and Competitive Sharing Arrangements",
+  description: "FAME is a platform by Phillip Securities that offers cost-effective solutions across the Trust continuum with win-win sharing arrangements. Future proof your business with FAME today!",
 };
 
 export default function RootLayout({
