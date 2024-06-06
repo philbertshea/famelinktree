@@ -1,0 +1,21 @@
+{
+    "name": "Some person",
+    "avatar": "https://media.licdn.com/dms/image/D5603AQFSWJJ6yF2Xpg/profile-displayphoto-shrink_400_400/0/1687399636902?e=1723075200&v=beta&t=w9PuScuUEFhfC_vTYe6hYOIVDQ8E2_1vfzil-FshhH4",
+    "links": [
+        {
+            "title": "My Website",
+            "url": "https://home.fame.com.sg",
+            "image": "https://eforms.phillip.com.sg/Runtime/Image.ashx?ImID=85"
+        },
+        {
+            "title": "Book an appointment",
+            "url": "https://zcal.co/philbertsph"
+        }
+    ],
+    "socials": [
+        {
+            "title": "LinkedIn",
+            "url": "https://www.linkedin.com"
+        }
+    ]
+}
