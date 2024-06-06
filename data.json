@@ -1,6 +1,7 @@
 {
-    "name": "Some person",
-    "avatar": "https://media.licdn.com/dms/image/D5603AQFSWJJ6yF2Xpg/profile-displayphoto-shrink_400_400/0/1687399636902?e=1723075200&v=beta&t=w9PuScuUEFhfC_vTYe6hYOIVDQ8E2_1vfzil-FshhH4",
+    "name": "FAME",
+    "description": "FAME is a platform by Phillip Securities that offers cost-effective solutions across the Trust continuum with win-win sharing arrangements. Future proof your business with FAME today!",
+    "avatar": "/res/FAME_Square.png",
     "links": [
         {
             "title": "My Website",
@@ -10,6 +11,42 @@
         {
             "title": "Book an appointment",
             "url": "https://zcal.co/philbertsph"
+        },
+        {
+            "title": "Guides",
+            "url": ""
+        },
+        {
+            "title": "Online Account Opening (Quick Guide)",
+            "url": "https://www.fame.com.sg/Uploads/Guides/UG_Online_Account_Opening_QuickGuide.pdf"
+        },
+        {
+            "title": "Online Account Opening (Full Guide)",
+            "url": "https://www.fame.com.sg/Uploads/Guides/UG_FAME_Online_Account_Opening_Guide.pdf"
+        },
+        {
+            "title": "PhillipKey 2FA (Quick Guide)",
+            "url": "https://www.fame.com.sg/Uploads/Guides/UG_FAME_2FA_Quickguide.png"
+        },
+        {
+            "title": "Payment Details",
+            "url": "https://www.fame.com.sg/Uploads/Guides/FAME_Payments.pdf"
+        },
+        {
+            "title": "Fee Schedule",
+            "url": "https://www.fame.com.sg/Uploads/FeeSchedule/FAMEFeeSchedule.pdf"
+        },
+        {
+            "title": "Forms",
+            "url": ""
+        },
+        {
+            "title": "Account Opening Form",
+            "url": "https://www.fame.com.sg/Uploads/AccountOpening/AccountOpenForm_Individual.pdf"
+        },
+        {
+            "title": "Wrap Transaction Form",
+            "url": "https://www.fame.com.sg/Uploads/Transaction/FormU2-UnitTrustWrapTransactionForm.pdf"
         }
     ],
     "socials": [
