@@ -33,7 +33,7 @@ export default function Home() {
           height="200"
           />
         <h1 className="font-bold mt-4 text-xl">{data.name}</h1>
-        <h2 className="text-m mt-5 mb-5 pl-56 pr-56">{data.description}</h2>
+        <h2 className="text-m mt-5 mb-5 pl-5 sm:pl-56  pr-5 sm:pr-56">{data.description}</h2>
           {data.links.map((link) => (
             <LinkCard key={link.url} href={link.url} {...link} />
           ))}

@@ -47,12 +47,22 @@
         {
             "title": "Wrap Transaction Form",
             "url": "https://www.fame.com.sg/Uploads/Transaction/FormU2-UnitTrustWrapTransactionForm.pdf"
-        }
-    ],
-    "socials": [
+        },
         {
-            "title": "LinkedIn",
-            "url": "https://www.linkedin.com"
+            "title": "Non-Wrap Transaction Form",
+            "url": "https://www.fame.com.sg/Uploads/Transaction/FormU1-UnitTrustNon-WrapTransactionForm.pdf"
+        },
+        {
+            "title": "Managed Account Transaction Form",
+            "url": "https://www.fame.com.sg/Uploads/MA/PMA_Transaction_Form.pdf"
+        },
+        {
+            "title": "Update Personal Particulars",
+            "url": "https://api2.sgx.com/sites/default/files/2022-10/2.%20Update%20Account%20Particulars.pdf"
+        },
+        {
+            "title": "Change Dividend Instruction",
+            "url": "https://www.fame.com.sg/Uploads/DividendRelated/FormU61_DividendInstructionForm.pdf"
         }
     ]
 }
