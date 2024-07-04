@@ -24,6 +24,10 @@ In the terminal, run:
 `git push`
 This pushes your changes to the remote git repository. After some time, Vercel will detect the changes and re-deploy the website.
 
+### Information about Poems Smartpark API
+
+This linktree accesses a railway-deployed app that returns a JSON response to the latest Smartpark rates.
+
 ### Information from Next.js and Vercel
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
