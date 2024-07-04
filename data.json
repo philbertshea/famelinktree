@@ -1,80 +1,48 @@
 {
     "name": "FAME",
-    "description": "FAME is a platform by Phillip Securities that offers cost-effective solutions across the Trust continuum with win-win sharing arrangements. Future proof your business with FAME today!",
-    "avatar": "/res/FAME_Square.png",
+    "description1": "Your Business, Our Solutions.",
+    "description2": "Future Proof Your Business.",
+    "avatar": "/res/FAME_Square.jpeg",
     "links": [
         {
-            "title": "My Website",
+            "title": "FAME",
             "url": "https://home.fame.com.sg",
-            "image": "https://eforms.phillip.com.sg/Runtime/Image.ashx?ImID=85"
+            "image": "/res/FAME_Square.jpeg"
         },
         {
-            "title": "Book an appointment",
-            "url": "https://zcal.co/philbertsph",
-            "image": "/res/zcal.png"
+            "title": "Get Support",
+            "url": "",
+            "image": ""
         },
         {
-            "title": "Guides",
-            "url": ""
+            "title": "Linktree for FA Rep",
+            "url": "https://linktr.ee/famesg",
+            "image": "/res/linktree.png"
         },
         {
-            "title": "Online Account Opening (Quick Guide)",
-            "url": "https://www.fame.com.sg/Uploads/Guides/UG_Online_Account_Opening_QuickGuide.pdf",
-            "image": "/res/book.png"
+            "title": "Linktree for Clients",
+            "url": "https://linktr.ee/fameclient",
+            "image": "/res/linktree.png"
         },
         {
-            "title": "Online Account Opening (Full Guide)",
-            "url": "https://www.fame.com.sg/Uploads/Guides/UG_FAME_Online_Account_Opening_Guide.pdf",
-            "image": "/res/book.png"
+            "title": "Chatbot Banner",
+            "url": "",
+            "image": "/res/Chatbot-banner.png"
         },
         {
-            "title": "PhillipKey 2FA (Quick Guide)",
-            "url": "https://www.fame.com.sg/Uploads/Guides/UG_FAME_2FA_Quickguide.png",
-            "image": "/res/book.png"
+            "title": "Our Products and Services",
+            "url": "",
+            "image": ""
         },
         {
-            "title": "Payment Details",
-            "url": "https://www.fame.com.sg/Uploads/Guides/FAME_Payments.pdf",
-            "image": "/res/book.png"
+            "title": "Our Products and Services Banner (Left)",
+            "url": "",
+            "image": "/res/Product_Banner_DarkGray_Left.png"
         },
         {
-            "title": "Fee Schedule",
-            "url": "https://www.fame.com.sg/Uploads/FeeSchedule/FAMEFeeSchedule.pdf",
-            "image": "/res/book.png"
-        },
-        {
-            "title": "Forms",
-            "url": ""
-        },
-        {
-            "title": "Account Opening Form",
-            "url": "https://www.fame.com.sg/Uploads/AccountOpening/AccountOpenForm_Individual.pdf",
-            "image": "/res/form.png"
-        },
-        {
-            "title": "Wrap Transaction Form",
-            "url": "https://www.fame.com.sg/Uploads/Transaction/FormU2-UnitTrustWrapTransactionForm.pdf",
-            "image": "/res/form.png"
-        },
-        {
-            "title": "Non-Wrap Transaction Form",
-            "url": "https://www.fame.com.sg/Uploads/Transaction/FormU1-UnitTrustNon-WrapTransactionForm.pdf",
-            "image": "/res/form.png"
-        },
-        {
-            "title": "Managed Account Transaction Form",
-            "url": "https://www.fame.com.sg/Uploads/MA/PMA_Transaction_Form.pdf",
-            "image": "/res/form.png"
-        },
-        {
-            "title": "Update Personal Particulars",
-            "url": "https://api2.sgx.com/sites/default/files/2022-10/2.%20Update%20Account%20Particulars.pdf",
-            "image": "/res/form.png"
-        },
-        {
-            "title": "Change Dividend Instruction",
-            "url": "https://www.fame.com.sg/Uploads/DividendRelated/FormU61_DividendInstructionForm.pdf",
-            "image": "/res/form.png"
+            "title": "Our Products and Services Banner (Right)",
+            "url": "",
+            "image": "/res/Product_Banner_DarkGray_Right.png"
         }
     ]
 }
