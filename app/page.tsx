@@ -1,6 +1,7 @@
+'use client';
 import Image from "next/image";
 import data from "../data.json";
-import { Suspense } from "react";
+import { Suspense, useState } from "react";
 
 interface rateObj {
   sgd_rate: string,
@@ -52,14 +53,22 @@ function LinkCard({ href, title, image }: {href: string, title: string, image?: 
 }
 
 async function SmartparkData() {
-  const response = await fetch('https://web-production-dd927.up.railway.app/');
-  const data: rateObj = await response.json();
-  return (
-    <div className="flex place-items-center flex-col mx-auto w-full justify-center p-3">
-      <h2 className="text-2xl">Smart PARK Rates <br />SGD: <b>{data.sgd_rate}</b> p.a.<br />USD: <b>{data.usd_rate}</b> p.a.</h2>
-      <h2>Disclaimer: {data.disclaimer}</h2>
-    </div>
-  );
+  const response = await fetch('https://web-production-dd927.up.railway.app/', {
+    method: "GET"
+  });
+  if (response.ok) {
+    const data: rateObj = await response.json();
+    console.log("Fetched Data");
+    return (
+      <div className="flex place-items-center flex-col mx-auto w-full justify-center p-3">
+        <h2 className="text-2xl">Smart PARK Rates <br />SGD: <b>{data.sgd_rate}</b> p.a.<br />USD: <b>{data.usd_rate}</b> p.a.</h2>
+        <h2>Disclaimer: {data.disclaimer}</h2>
+      </div>
+    );
+  } else {
+    console.log("Error");
+  }
+  
 }
 
 function Loading() {
@@ -71,6 +80,15 @@ function Loading() {
 }
 
 export default function Home() {
+  const [spComp, setSpComp] = useState(<div />);
+  const loadSpComp = () => {
+    return (
+    <Suspense fallback={<Loading />}>
+      <SmartparkData />
+    </Suspense>
+    );
+  };
+
   return (
     <>
       <div className="flex place-items-center flex-col mx-auto w-full justify-center mt-6 p-2">
@@ -84,9 +102,8 @@ export default function Home() {
         <h1 className="font-bold mt-4 text-5xl">{data.name}</h1>
         <h2 className="text-xl mt-3 pl-5 sm:pl-56 pr-5 sm:pr-56">{data.description1}</h2>
         <h2 className="text-xl mb-3 p-0">{data.description2}</h2>
-        <Suspense fallback={<Loading />}>
-          <SmartparkData />
-        </Suspense>
+        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full" id="updateData" onClick={() => setSpComp(<div>{loadSpComp()}</div>)}>Update Smartpark Data</button>
+        {spComp}
           {data.links.map((link) => (
             <LinkCard key={link.url} href={link.url} {...link} />
           ))}
@@ -94,6 +111,7 @@ export default function Home() {
       <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
       <script src="https://mediafiles.botpress.cloud/b2e19fb5-3de9-440f-ac2a-7d1a0d0ae9b1/webchat/config.js" defer></script>
       <script src="/res/livechat_script.js"></script>
+      <script src="/res/update_button.js"></script>
     </>
     
   );
